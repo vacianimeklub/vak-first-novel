@@ -197,6 +197,8 @@ screen main_menu():
         textbutton _("Help") action Help()
         textbutton _("Quit") action Quit(confirm=False)
 
+    add "menu-placeholder.png" xalign 0.25 yalign 0.1
+
 init -2:
 
     # Make all the main menu buttons be the same size.
